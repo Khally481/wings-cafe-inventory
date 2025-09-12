@@ -1,0 +1,425 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Coffee",
+      "description": "Freshly brewed coffee",
+      "category": "Beverages",
+      "price": 19.99,
+      "quantity": 21,
+      "lowStockThreshold": 10,
+      "lowStockAlert": false
+    },
+    {
+      "id": 2,
+      "name": "Sandwich",
+      "description": "Club sandwich with turkey and bacon",
+      "category": "Food",
+      "price": 8.99,
+      "quantity": 12,
+      "lowStockThreshold": 5,
+      "lowStockAlert": false
+    },
+    {
+      "name": "NikNaks",
+      "description": "Cheese flavour",
+      "category": "Snack",
+      "price": 1.5,
+      "quantity": 0,
+      "lowStockThreshold": 5,
+      "id": 3,
+      "lowStockAlert": true
+    },
+    {
+      "name": "Bread",
+      "description": "Toasted brown bread",
+      "category": "Food",
+      "price": 5,
+      "quantity": 7,
+      "lowStockThreshold": 5,
+      "id": 4,
+      "lowStockAlert": false
+    },
+    {
+      "name": "Pear",
+      "description": "Ripe and sweet",
+      "category": "Fruits",
+      "price": 2.5,
+      "quantity": 0,
+      "lowStockThreshold": 5,
+      "id": 5,
+      "lowStockAlert": true
+    },
+    {
+      "name": "Blueberry muffin",
+      "description": "Freshly baked muffin with real blueberries",
+      "category": "Bakery",
+      "price": 4,
+      "quantity": 4,
+      "lowStockThreshold": 5,
+      "id": 6,
+      "lowStockAlert": true
+    },
+    {
+      "name": "Chocolate cake slice",
+      "description": "Rich chocolate cake topped with chocolate frosting",
+      "category": "Desserts",
+      "price": 22,
+      "quantity": 0,
+      "lowStockThreshold": 5,
+      "id": 7,
+      "lowStockAlert": true
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "productId": 1,
+      "type": "sale",
+      "quantity": 2,
+      "date": "2025-10-09T10:30:00Z"
+    },
+    {
+      "id": 2,
+      "productId": 1,
+      "type": "restock",
+      "quantity": 20,
+      "date": "2025-10-09T08:15:00Z"
+    },
+    {
+      "productId": 5,
+      "type": "sale",
+      "quantity": 2,
+      "unitPrice": 2.5,
+      "totalAmount": 5,
+      "date": "2025-09-11T13:57:34.568Z",
+      "id": 3
+    },
+    {
+      "productId": 3,
+      "type": "sale",
+      "quantity": 5,
+      "unitPrice": 1.5,
+      "totalAmount": 7.5,
+      "date": "2025-09-11T13:58:30.710Z",
+      "id": 4
+    },
+    {
+      "productId": 2,
+      "type": "sale",
+      "quantity": 1,
+      "unitPrice": 8.99,
+      "totalAmount": 8.99,
+      "date": "2025-09-11T14:01:42.469Z",
+      "id": 5
+    },
+    {
+      "productId": 5,
+      "type": "sale",
+      "quantity": 1,
+      "unitPrice": 2.5,
+      "totalAmount": 2.5,
+      "date": "2025-09-11T14:02:06.150Z",
+      "id": 6
+    },
+    {
+      "productId": 1,
+      "type": "adjustment",
+      "quantity": 2,
+      "date": "2025-09-11T14:19:24.570Z",
+      "id": 7
+    },
+    {
+      "productId": 1,
+      "type": "add",
+      "quantity": 4,
+      "date": "2025-09-11T14:21:48.335Z",
+      "id": 8
+    },
+    {
+      "productId": 5,
+      "type": "deduct",
+      "quantity": 2,
+      "date": "2025-09-11T14:30:41.434Z",
+      "id": 9
+    },
+    {
+      "productId": 5,
+      "type": "deduct",
+      "quantity": 1,
+      "date": "2025-09-11T14:30:48.173Z",
+      "id": 10
+    },
+    {
+      "productId": 4,
+      "type": "deduct",
+      "quantity": 2,
+      "date": "2025-09-11T14:30:54.416Z",
+      "id": 11
+    },
+    {
+      "productId": 3,
+      "type": "deduct",
+      "quantity": 2,
+      "date": "2025-09-11T14:31:05.063Z",
+      "id": 12
+    },
+    {
+      "productId": 2,
+      "type": "deduct",
+      "quantity": 3,
+      "date": "2025-09-11T14:31:16.280Z",
+      "id": 13
+    },
+    {
+      "productId": 1,
+      "type": "deduct",
+      "quantity": 2,
+      "date": "2025-09-11T14:31:29.110Z",
+      "id": 14
+    },
+    {
+      "productId": 2,
+      "type": "restock",
+      "quantity": 2,
+      "date": "2025-09-11T14:31:35.149Z",
+      "id": 15
+    },
+    {
+      "productId": 5,
+      "type": "deduct",
+      "quantity": 1,
+      "date": "2025-09-11T14:33:53.735Z",
+      "id": 16
+    },
+    {
+      "productId": 5,
+      "type": "Deduct Stock",
+      "quantity": 1,
+      "date": "2025-09-11T14:36:58.952Z",
+      "id": 17
+    },
+    {
+      "productId": 1,
+      "type": "deduct",
+      "quantity": 2,
+      "date": "2025-09-11T14:37:23.229Z",
+      "id": 18
+    },
+    {
+      "productId": 1,
+      "type": "deduct",
+      "quantity": 2,
+      "date": "2025-09-11T14:37:41.105Z",
+      "id": 19
+    },
+    {
+      "productId": 1,
+      "type": "remove",
+      "quantity": 2,
+      "date": "2025-09-11T14:38:11.873Z",
+      "id": 20
+    },
+    {
+      "productId": 1,
+      "type": "remove",
+      "quantity": 2,
+      "date": "2025-09-11T14:38:19.485Z",
+      "id": 21
+    },
+    {
+      "productId": 4,
+      "type": "add",
+      "quantity": 3,
+      "date": "2025-09-11T14:38:32.078Z",
+      "id": 22
+    },
+    {
+      "productId": 4,
+      "type": "add",
+      "quantity": 2,
+      "date": "2025-09-11T14:39:51.155Z",
+      "id": 23
+    },
+    {
+      "productId": 4,
+      "type": "sale",
+      "quantity": 1,
+      "unitPrice": 5,
+      "totalAmount": 5,
+      "date": "2025-09-11T14:40:01.257Z",
+      "id": 24
+    },
+    {
+      "productId": 1,
+      "type": "sale",
+      "quantity": 2,
+      "unitPrice": 19.99,
+      "totalAmount": 39.98,
+      "date": "2025-09-11T14:57:41.501Z",
+      "id": 25
+    },
+    {
+      "productId": 1,
+      "type": "sale",
+      "quantity": 2,
+      "unitPrice": 19.99,
+      "totalAmount": 39.98,
+      "date": "2025-09-11T15:01:00.284Z",
+      "id": 26
+    },
+    {
+      "productId": 2,
+      "type": "sale",
+      "quantity": 1,
+      "unitPrice": 8.99,
+      "totalAmount": 8.99,
+      "date": "2025-09-11T15:01:00.357Z",
+      "id": 27
+    },
+    {
+      "productId": 1,
+      "type": "sale",
+      "quantity": 1,
+      "unitPrice": 19.99,
+      "totalAmount": 19.99,
+      "date": "2025-09-11T15:04:53.904Z",
+      "id": 28
+    },
+    {
+      "productId": 2,
+      "type": "sale",
+      "quantity": 1,
+      "unitPrice": 8.99,
+      "totalAmount": 8.99,
+      "date": "2025-09-11T15:04:53.907Z",
+      "id": 29
+    },
+    {
+      "productId": 1,
+      "type": "sale",
+      "quantity": 1,
+      "unitPrice": 19.99,
+      "totalAmount": 19.99,
+      "date": "2025-09-11T15:05:02.641Z",
+      "id": 30
+    },
+    {
+      "productId": 1,
+      "type": "sale",
+      "quantity": 1,
+      "unitPrice": 19.99,
+      "totalAmount": 19.99,
+      "date": "2025-09-11T15:09:46.095Z",
+      "id": 31
+    },
+    {
+      "productId": 2,
+      "type": "sale",
+      "quantity": 1,
+      "unitPrice": 8.99,
+      "totalAmount": 8.99,
+      "date": "2025-09-11T15:09:46.183Z",
+      "id": 32
+    },
+    {
+      "productId": 1,
+      "type": "sale",
+      "quantity": 1,
+      "unitPrice": 19.99,
+      "totalAmount": 19.99,
+      "date": "2025-09-11T15:16:53.763Z",
+      "id": 33
+    },
+    {
+      "productId": 1,
+      "type": "sale",
+      "quantity": 1,
+      "unitPrice": 19.99,
+      "totalAmount": 19.99,
+      "date": "2025-09-11T15:17:21.387Z",
+      "id": 34
+    },
+    {
+      "productId": 1,
+      "type": "sale",
+      "quantity": 1,
+      "unitPrice": 19.99,
+      "totalAmount": 19.99,
+      "date": "2025-09-11T18:38:43.018Z",
+      "id": 35
+    },
+    {
+      "productId": 1,
+      "type": "sale",
+      "quantity": 1,
+      "unitPrice": 19.99,
+      "totalAmount": 19.99,
+      "date": "2025-09-11T18:45:28.753Z",
+      "id": 36
+    },
+    {
+      "productId": 1,
+      "type": "sale",
+      "quantity": 1,
+      "unitPrice": 19.99,
+      "totalAmount": 19.99,
+      "date": "2025-09-11T18:55:02.958Z",
+      "id": 37
+    },
+    {
+      "productId": 1,
+      "type": "sale",
+      "quantity": 1,
+      "unitPrice": 19.99,
+      "totalAmount": 19.99,
+      "date": "2025-09-11T18:55:24.167Z",
+      "id": 38
+    },
+    {
+      "productId": 1,
+      "type": "sale",
+      "quantity": 1,
+      "unitPrice": 19.99,
+      "totalAmount": 19.99,
+      "date": "2025-09-11T19:02:56.170Z",
+      "id": 39
+    },
+    {
+      "productId": 1,
+      "type": "sale",
+      "quantity": 1,
+      "unitPrice": 19.99,
+      "totalAmount": 19.99,
+      "date": "2025-09-11T19:11:25.981Z",
+      "id": 40
+    },
+    {
+      "productId": 2,
+      "type": "sale",
+      "quantity": 1,
+      "unitPrice": 8.99,
+      "totalAmount": 8.99,
+      "date": "2025-09-11T19:11:25.989Z",
+      "id": 41
+    },
+    {
+      "productId": 6,
+      "type": "sale",
+      "quantity": 2,
+      "unitPrice": 4,
+      "totalAmount": 8,
+      "date": "2025-09-11T19:20:07.010Z",
+      "id": 42
+    },
+    {
+      "productId": 7,
+      "type": "sale",
+      "quantity": 2,
+      "unitPrice": 22,
+      "totalAmount": 44,
+      "date": "2025-09-11T19:20:07.011Z",
+      "id": 43
+    }
+  ]
+}

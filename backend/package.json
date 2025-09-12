@@ -1,0 +1,13 @@
+{
+  "name": "wings-cafe-backend",
+  "version": "1.0.0",
+  "description": "Backend for Wings Cafe Inventory System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "json-server --watch database.json --port 3001"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
